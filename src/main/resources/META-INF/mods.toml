@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[44,)"
+license="All rights reserved"
+[[mods]]
+modId="dungeonnowloadingmod"
+version="${file.jarVersion}"
+displayName="Dungeon Now Loading Mod"
+logoFile="icon.png"
+credits="Hexnowloading"
+authors="Hexnowloading"
+
+description='''
+Dungeon Now Loading is a mod that introduces new vanilla style structures and bosses!
+
+The ultimate goal of this mod is to add 100 dungeons and bosses into the world of minecraft!
+
+This is a remastered version of original dungeon now loading datapack. With this version, we are using the power of modding to make the structures and bosses even more exciting!
+
+Have Fun, Explorers!
+'''
+
+[[dependencies.dungeonnowloadingmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[44,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.dungeonnowloadingmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.3,1.20)"
+    ordering="NONE"
+    side="BOTH"
